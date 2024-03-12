@@ -125,7 +125,7 @@ def country_maps(df1):
 # ========================================================================================================
 
 # Read DataFrame / Lendo DataFrame
-df = pd.read_csv(r'..\dataset\train.csv')
+df = pd.read_csv('../dataset/train.csv')
 
 # Cleaning DataFrame / Limpando DataFrame
 df1 = clean_code(df)
